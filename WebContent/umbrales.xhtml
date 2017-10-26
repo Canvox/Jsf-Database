@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:a="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+  <title>UMBRALES</title>  
+  <h:outputStylesheet library="css" name="style.css" />  
+</h:head>
+<h:body class="centered">
+	<div>
+		<h:form>
+			<h2>CRUD de Umbrales</h2>
+			<label>Umbral Id: </label><h:inputText  styleClass="text" value="#{umbralControlador.umbralId}"/>
+			<br/><br/>
+			<label>Valor Min: </label><h:inputText styleClass="text" value="#{umbralControlador.valorMin}"/>
+			<br/><br/>	
+			<label>Valor Max: </label><h:inputText  styleClass="text" value="#{umbralControlador.valorMax}"/>
+			<br/><br/>
+			<label>Estado: </label><h:inputText styleClass="text" value="#{umbralControlador.estado}"/>
+			<br/><br/>	
+			<label>Fecha Registro: </label><h:inputText 
+				    value="#{umbralControlador.fechaRegistro}">
+				    
+				</h:inputText>
+			<br/><br/>	
+			<label>Fecha Actualiza: </label><h:inputText 
+				    value="#{umbralControlador.fechaActualiza}">
+				    
+				</h:inputText>
+			<br/><br/>
+			<label>Fecha Inactiva: </label><h:inputText 
+				    value="#{umbralControlador.fechaInactiva}">
+				    
+				</h:inputText>
+			<br/><br/>
+			<label>Usuario Modifica: </label><h:inputText 
+				    value="#{umbralControlador.usuarioModifica}">
+				    
+				</h:inputText>
+			<br/><br/>
+			<label>Valor Umbral: </label><h:inputText 
+					 value="#{umbralControlador.numeroUmbral}">
+				    
+				</h:inputText>
+			<br/><br/>
+			
+			<h:panelGrid columns="8">
+				
+				<h:commandButton value="Insertar" style="width:100px;height:30px" styleClass="richButton" action="#{umbralControlador.insertar()}"/>
+				<br></br>
+				<h:commandButton value="Modificar" style="width:100px;height:30px" styleClass="richButton" action="#{umbralControlador.modificar()}"/>
+				<br></br>
+				<h:commandButton value="Borrrar" style="width:100px;height:30px" styleClass="richButton" action="#{umbralControlador.borrar()}"/>
+				<br></br>
+				<h:commandButton value="Consultar" style="width:100px;height:30px" styleClass="richButton" action="#{umbralControlador.consultar()}"/>
+				<br></br>
+			</h:panelGrid>
+			
+		</h:form>
+	</div>
+</h:body>
+
+</html>

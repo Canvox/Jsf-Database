@@ -1,0 +1,121 @@
+html,body{
+	margin-left:15px; margin-right:15px; 
+	padding:0px; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+h2 {   
+	border-collapse:collapse;
+	border-bottom:1px solid gray;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	width:72%;
+}
+ 
+label{
+	border-bottom:1px solid gray;
+	background:none repeat scroll 0 0 #0775d3;
+	padding:10px;
+	color: #FFFFFF;
+}
+ 
+text {
+	border-top:1px solid gray;
+	background:none repeat scroll 0 0 #FFFFFFF;
+	text-align:center;
+}
+ 
+text {
+	border-top:1px solid gray;
+	background:none repeat scroll 0 0 #D0D0D0;
+	text-align:center;
+}
+
+#wrapper {width: 100%; margin-top: 0px; }
+#header {width: 70%; background: #0775d3; margin-top: 0px; padding:15px 0px 15px 15px;}
+#header h2 {width: 100%; margin:auto; color: #FFFFFF;}
+#container {width: 100%; margin:auto}
+#container h3 {color: #000;}
+#container form#add input { background: #50acd6; border: 1px solid #666; border-radius: 5px; color: #fff; padding: 8px; font-size: 16px;}
+#container form#find {margin-top:30px;}
+#container form#find label {font-size: 13px; color: #000; float:left; margin-right: 20px;}
+#container form#find input {border: 1px solid #ccc; border-radius: 3px; padding: 5px 10px; width: 86%;}
+#container #content {margin-top: 20px;}
+
+.add-button {
+	border: 1px solid #666; 
+	border-radius: 5px; 
+	padding: 4px; 
+	font-size: 12px;
+	font-weight: bold;
+	width: 120px; 
+	padding: 5px 10px; 
+	
+	margin-bottom: 15px;
+	background: #cccccc;
+}
+
+.richButton {
+    margin:0 5px 0 0;
+    padding:5px 10px 5px 10px;
+    height:29px;
+    font-size:12px;
+    color:#262626;
+    font-weight:bold;
+    border:1px #ccc solid;
+    border-radius:5px;
+    cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    /* IE10 Consumer Preview */
+    background: -ms-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
+    /* Mozilla Firefox */
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
+    /* Opera */
+    background: -o-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
+    /* Webkit (Safari/Chrome 10) */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #E3E3E3));
+    /* Webkit (Chrome 11+) */
+    background: -webkit-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
+    /* W3C Markup, IE10 Release Preview */
+    background: linear-gradient(to bottom, #FFFFFF 0%, #E3E3E3 100%);
+}
+
+.richButton:hover:enabled {
+    /* IE10 Consumer Preview */
+    background: -ms-linear-gradient(top, #FFFFFF 0%, #CCCCCC 100%);
+    /* Mozilla Firefox */
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #CCCCCC 100%);
+    /* Opera */
+    background: -o-linear-gradient(top, #FFFFFF 0%, #CCCCCC 100%);
+    /* Webkit (Safari/Chrome 10) */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #CCCCCC));
+    /* Webkit (Chrome 11+) */
+    background: -webkit-linear-gradient(top, #FFFFFF 0%, #CCCCCC 100%);
+    /* W3C Markup, IE10 Release Preview */
+    background: linear-gradient(to bottom, #FFFFFF 0%, #CCCCCC 100%);
+}
+.richButton:active:enabled {
+    /* IE10 Consumer Preview */
+    background: -ms-linear-gradient(top, #F0F0F0 0%, #CCCCCC 100%);
+    /* Mozilla Firefox */
+    background: -moz-linear-gradient(top, #F0F0F0 0%, #CCCCCC 100%);
+    /* Opera */
+    background: -o-linear-gradient(top, #F0F0F0 0%, #CCCCCC 100%);
+    /* Webkit (Safari/Chrome 10) */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F0F0F0), color-stop(1, #CCCCCC));
+    /* Webkit (Chrome 11+) */
+    background: -webkit-linear-gradient(top, #F0F0F0 0%, #CCCCCC 100%);
+    /* W3C Markup, IE10 Release Preview */
+    background: linear-gradient(to bottom, #F0F0F0 0%, #CCCCCC 100%);
+}
+.richButton:disabled {
+    font-weight: normal;
+    color: #888888;
+}
+
+text {
+	width: 250px;
+	border: 1px solid #666; 
+	border-radius: 5px; 
+	padding: 4px; 
+	font-size: 16px;
+}

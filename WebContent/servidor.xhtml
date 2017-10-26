@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:a="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+  <title>SERVIDORES</title>  
+  <h:outputStylesheet library="css" name="style.css" />  
+</h:head>
+<h:body class="centered">
+	<div>
+		<h:form>
+			<h2>Consulta de Servidores</h2>
+			<label>Servidor ID: </label><h:outputLabel value="#{servidorControlador.servidorId}"/>
+			<br/><br/>
+			<label>Nombre Servidor: </label><h:outputLabel value="#{servidorControlador.nombreServidor}"/>
+			<br/><br/>	
+			<label>Direccion IP: </label><h:outputLabel value="#{servidorControlador.direccionIp}"/>
+			<br/><br/>
+			<label>Descripcion: </label><h:outputLabel value="#{servidorControlador.descripcion}"/>
+			<br/><br/>	
+			<label>Estado: </label><h:outputLabel value="#{servidorControlador.estado}"/>
+			<br/><br/>
+			<label>Fecha Registro: </label><h:outputLabel value="#{servidorControlador.fechaRegistro}"/>
+			<br/><br/>	
+			<label>Fecha Actualiza: </label><h:outputLabel value="#{servidorControlador.fechaActualiza}"/>
+			<br/><br/>
+			<label>Fecha Inactiva: </label><h:outputLabel value="#{servidorControlador.fechaInactiva}"/>
+			<br/><br/>
+			<label>Usuario Modifica: </label><h:outputLabel value="#{servidorControlador.usuarioModifica}"/>
+			<br/><br/>
+					
+			
+		</h:form>
+	</div>
+</h:body>
+
+</html>

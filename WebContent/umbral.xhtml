@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:a="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+  <title>UMBRALES</title>  
+  <h:outputStylesheet library="css" name="style.css" />  
+</h:head>
+<h:body class="centered">
+	<div>
+		<h:form>
+			<h2>CRUD UMBRALES</h2>
+			<label>Umbral Id: </label><h:outputLabel value="#{umbralControlador.umbralId}"/>
+			<br/><br/>
+			<label>Valor Min: </label><h:outputLabel value="#{umbralControlador.valorMin}"/>
+			<br/><br/>	
+			<label>Valor Max: </label><h:outputLabel value="#{umbralControlador.valorMax}"/>
+			<br/><br/>
+			<label>Estado: </label><h:outputLabel value="#{umbralControlador.estado}"/>
+			<br/><br/>
+			<label>Fecha Registro: </label><h:outputLabel value="#{umbralControlador.fechaRegistro}"/>
+			<br/><br/>	
+			<label>Fecha Actualiza: </label><h:outputLabel value="#{umbralControlador.fechaActualiza}"/>
+			<br/><br/>
+			<label>Fecha Inactiva: </label><h:outputLabel value="#{umbralControlador.fechaInactiva}"/>
+			<br/><br/>
+			<label>Usuario Modifica: </label><h:outputLabel value="#{umbralControlador.usuarioModifica}"/>
+			<br/><br/>
+			<label>Numero Umbral: </label><h:outputLabel value="#{umbralControlador.numeroUmbral}"/>
+			<br/><br/>		
+			
+		</h:form>
+	</div>
+</h:body>
+
+</html>

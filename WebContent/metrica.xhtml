@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:a="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+  <title>METRICAS</title>  
+  <h:outputStylesheet library="css" name="style.css" />  
+</h:head>
+<h:body class="centered">
+	<div>
+		<h:form>
+			<h2>Consulta de Metricas</h2>
+			<label>Metrica Id: </label><h:outputLabel value="#{metricaControlador.metricaId}"/>
+			<br/><br/>
+			<label>Metrica: </label><h:outputLabel value="#{metricaControlador.metrica}"/>
+			<br/><br/>	
+			<label>Descripcion: </label><h:outputLabel value="#{metricaControlador.descripcion}"/>
+			<br/><br/>
+			<label>Parametros: </label><h:outputLabel value="#{metricaControlador.parametros}"/>
+			<br/><br/>	
+			<label>Intervalo Tiempo: </label><h:outputLabel value="#{metricaControlador.tiempo}"/>
+			<br/><br/>
+			<label>Time Out: </label><h:outputLabel value="#{metricaControlador.timeOut}"/>
+			<br/><br/>	
+			<label>Estado: </label><h:outputLabel value="#{metricaControlador.estado}"/>
+			<br/><br/>
+			<label>Fecha Registro: </label><h:outputLabel
+				    value="#{metricaControlador.fechaRegistro}">
+				    
+				</h:outputLabel>
+			<br/><br/>	
+			<label>Fecha Actualiza: </label><h:outputLabel
+				    value="#{metricaControlador.fechaActualiza}">
+				    
+				</h:outputLabel>
+			<br/><br/>
+			<label>Fecha Inactiva: </label><h:outputLabel
+				    value="#{metricaControlador.fechaInactiva}">
+				    
+				</h:outputLabel>
+			<br/><br/>
+			<label>Usuario Modifica: </label><h:outputLabel
+				    value="#{metricaControlador.usuarioModifica}">
+				    
+				</h:outputLabel>
+			<br/><br/>
+						
+			
+		</h:form>
+	</div>
+</h:body>
+
+</html>
